@@ -1,0 +1,391 @@
+header {
+    position: relative;
+    padding-bottom: 20px; 
+    background-color: #e2e3e4; 
+}
+
+header .overlay {
+    position: relative;
+}
+
+header .overlay-text {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: white;
+    text-align: center;
+    z-index: 1; 
+}
+
+header .overlay-text h1 {
+    font-size: 3rem;
+    font-weight: bold;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+}
+
+header .overlay-text p {
+    font-size: 1.5rem;
+    margin-bottom: 20px;
+}
+
+.nav-link.login-signup {
+    display: inline-block; 
+    padding: 10px 20px; 
+    border: 2px solid blue; 
+    border-radius: 5px; 
+    transition: background-color 0.3s, border-color 0.3s; 
+}
+
+.nav-link.login-signup:hover {
+    background-color: rgb(168, 168, 230); 
+    color: white; 
+    border-color: blue; 
+}
+
+.navbar-nav .nav-item a {
+    transition: color 0.3s ease;
+}
+
+.navbar-nav .nav-item a:hover {
+    color: #007bff;
+}
+
+.search-bar {
+    display: inline-flex;
+    width: 50%;
+    margin-bottom: 10px;
+    animation: slideIn 1s ease-in-out;
+}
+
+.search-bar input {
+    width: 100%;
+    padding: 10px;
+    border-radius: 20px; 
+    margin: 0 10px;
+    transition: border 0.3s ease;
+}
+
+.search-bar input:focus {
+    border: 2px solid #007bff;
+    outline: none;
+}
+
+.search-bar button {
+    border-radius: 20px; 
+    padding: 10px;
+    transition: transform 0.3s ease;
+}
+
+.search-bar button:hover {
+    transform: scale(1.1);
+    background-color: #007bff;
+    color: white;
+}
+
+.search-bar .filter-icon {
+    margin-right: 8px; 
+    padding: 8px;
+}
+
+.badges .badge {
+    margin: 5px; 
+    padding: 10px 15px; 
+    font-size: 1rem;
+}
+
+.img-fluid {
+    width: 100%;
+    height: auto;
+    object-fit: cover;
+    filter: brightness(0.7);
+}
+
+/* Doctor Specialization Section */
+section .rounded-circle {
+    width: 80px;
+    height: 80px;
+    object-fit: cover;
+}
+
+section .col-4 p {
+    font-size: 1rem;
+    font-weight: 500;
+    margin-top: 5px;
+}
+
+.doctor-card a {
+    text-decoration: none;
+    color: inherit;
+}
+
+.doctor-card:hover {
+    color: #007bff
+}
+
+/* Best Place Section */
+.card {
+    transition: transform 0.3s;
+}
+
+.card:hover {
+    transform: scale(1.05);
+}
+
+.card-img-top {
+    height: 200px;
+    object-fit: cover;
+}
+
+/* Navbar Animation */
+.navbar-nav .nav-item a {
+    transition: color 0.3s ease;
+}
+
+.navbar-nav .nav-item a:hover {
+    color: #007bff;
+}
+
+/* Sticky Navbar */
+.sticky-top {
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+/* Footer Section */
+.footer1{
+    background-color: #00008B;
+    padding: 140px;
+    position: relative;
+    height: 400px;
+}
+.footer-left{
+    margin-top: -90px;
+    margin-left: -180px;
+    text-align: center;
+    color: #7FFFD4	;
+}
+.text-2{
+    margin-left: 735px;
+    color: white;
+}
+
+.contact-title {
+    font-weight: bold; 
+    font-size: 1.5rem; 
+    margin-bottom: 10px;
+}
+
+.creditcards{
+    color: white;
+    margin-top: -160px;
+    margin-left: -200px;
+}
+.creditcards img {
+    margin-top: -180px; 
+}
+
+@media (max-width: 768px) {
+header{
+    padding-bottom: 10px;
+}
+
+header .overlay-text h1 {
+    font-size: 2.5rem; 
+  }
+
+header .overlay-text p {
+    font-size: 1.2rem; 
+  }
+
+.search-bar {
+    width: 90%;
+    margin: 0 auto;
+}
+
+.badges .badge {
+    font-size: 0.9rem;
+    padding: 8px 10px;
+}
+
+section .col-4 p {
+    font-size: 0.8rem;
+    font-weight: 400;
+    margin-top: 5px;
+}
+
+.doctor-card:hover {
+    color: #007bff
+}
+.card:hover {
+    transform: scale(1.05);
+}
+
+    .footer1{
+        background-color: #00008B;
+        padding: 140px;
+        position: relative;
+        height: 400px;
+    }
+    .footer-left{
+        margin-top: -80px;
+        margin-left: -140px;
+        text-align: center;
+        color: #7FFFD4	;
+    }
+    .text-2{
+        margin-left: 330px;
+        margin-right: none;
+        color: white;
+    }
+
+    .contact-title {
+        font-weight: bold; 
+        font-size: 1.1rem; 
+        margin-bottom: 10px;
+    }
+
+    .creditcards{
+        color: white;
+        margin-top: -130px;
+        margin-left: -100px;
+    }
+
+    .creditcards img {
+        margin-left: -40px;
+        margin-top: -170px;
+        max-width: 170px; 
+    }
+}
+
+@media (max-width: 576px) {
+    header{
+        padding-bottom: 4px;
+    }
+
+  header .overlay-text h1 {
+    font-size: 2rem; 
+  }
+
+  header .overlay-text p {
+    font-size: 1rem; 
+  }
+  
+  .search-bar {
+    width: 100%;
+    margin: 0 auto;
+}
+
+.badges {
+    flex-direction: column; 
+}
+
+.badges .badge {
+    font-size: 0.8rem;
+    padding: 7px 10px;
+}
+
+  section .col-4 p {
+    font-size: 0.6rem;
+    font-weight: 300;
+    margin-top: 5px;
+}
+
+.doctor-card:hover {
+    color: #007bff
+}
+.card:hover {
+    transform: scale(1.05);
+}
+
+}
+
+@media (max-width: 480px) {
+    .footer1{
+        background-color: #00008B;
+        padding: 100px;
+        position: relative;
+        height: 600px;
+    }
+    .footer-left{
+        margin-top: -40px;
+        margin-left: -100px;
+        text-align: center;
+        color: #7FFFD4	;
+    }
+    .text-2{
+        margin-left: 100px;
+        color: white;
+        margin-left: -80px;
+    }
+
+    .contact-title {
+        font-weight: bold; 
+        font-size: 1.4rem; 
+        margin-left: -40px;
+        margin-right: -100;
+    }
+
+    .creditcards{
+        color: white;
+        margin-top: 60px;
+        margin-left: -87px;
+    }
+
+    .creditcards img {
+        margin-left: -40px;
+        margin-top: -340px;
+        max-width: 170px; 
+    }
+}
+
+@media (max-width: 320px) {
+    .footer1{
+        background-color: #00008B;
+        padding: 60px;
+        position: absolute;
+        height: 800px;
+    }
+    .footer-left{
+        margin-top: -40px;
+        margin-left: 60px;
+        text-align: center;
+        color: #7FFFD4	;
+    }
+    .text-2{
+        color: white;
+        margin-left: -40px;
+        margin-right: -100px;
+        margin-top: 30px;
+    }
+
+    .contact-title {
+        font-weight: bold; 
+        font-size: 1.4rem; 
+        margin-top: 10px;
+        margin-bottom: -10px;
+    }
+
+    .creditcards{
+        color: white;
+        margin-top: 30px;
+        margin-left: -40px;
+    }
+
+    .creditcards img {
+        margin-left: -40px;
+        margin-top: -310px;
+        max-width: 170px; 
+    }
+}
+
+/* Animations */
+@keyframes fadeIn {
+    from { opacity: 0; }
+    to { opacity: 1; }
+}
+
+@keyframes slideIn {
+    from { transform: translateY(-20px); opacity: 0; }
+    to { transform: translateY(0); opacity: 1; }
+}
+

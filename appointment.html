@@ -1,0 +1,230 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DocNow Appointment</title>
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet">
+    <!-- Bootstrap Icons -->
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-icons/1.8.1/font/bootstrap-icons.min.css" rel="stylesheet">
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="styles/appointment.css">
+</head>
+<body>
+
+    <!-- Header Section -->
+    <header class="text-center position-relative">
+        <!-- Sticky Navbar -->
+        <nav class="navbar navbar-expand-lg navbar-light bg-light sticky-top">
+            <div class="container-fluid">
+                <a class="navbar-brand" href="#">
+                    <img src="img/logo.png" alt="DocNow Logo" width="30" height="30">
+                    DocNow
+                </a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarNav">
+                    <ul class="navbar-nav ms-auto">
+                        <li class="nav-item">
+                            <a class="nav-link" href="index.html"><i class="bi bi-house-fill"></i></i> Home</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="articles.html"><i class="bi bi-file-earmark-medical"></i> Health Articles</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="appointment.html"><i class="bi bi-calendar-check"></i> Appointment</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="about-us.html"><i class="bi bi-person-circle"></i> About Us</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link login-signup" href="login.html"><i class="bi bi-box-arrow-in-right"></i> Log in/Sign up</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+
+        <!-- Main Section -->
+        <section id="main-section" class="text-center">
+            <div class="overlay">
+                <img src="img/bg.jpg" alt="Hospital" class="img-fluid" style="width: 100%; height: auto;">
+                <div class="overlay-text">
+                    <h1>Welcome to Appointment</h1>
+                    <p>Help you find what you want quickly and in detail</p>
+                </div>
+            </div>
+        </section>
+        
+        <!-- Tags Section -->
+        <div class="tags mt-3 text-center" style="color: blueviolet;">
+            <div class="search-bar">
+                <input type="text" class="form-control" placeholder='search "Dentist"'>
+                <button class="btn btn-light btn-animated"><i class="bi bi-filter"></i> </button>
+                <button class="btn btn-light btn-animated"><i class="bi bi-search"></i> </button>
+            </div>
+            <div class="badges mt-3">
+                <span class="badge bg-primary">see a doctor quickly</span>
+                <span class="badge bg-primary">Engaged doctor</span>
+                <span class="badge bg-primary">Best hospital</span>
+            </div>
+        </div>
+    </header>
+        
+
+    <!-- Doctor Specialization Section -->
+    <section class="container mt-5">
+        <h2 class="text-center mb-4">Select Doctor Specialization</h2>
+        <input type="text" id="doctorSearch" class="form-control mb-4" placeholder="Search Doctors...">
+    
+        <div class="row text-center" id="doctorList">
+            <div class="col-4 col-md-2 mb-3 doctor-card">
+                <a href="spesialis.html">
+                    <img src="img/cardio.jpg" class="rounded-circle mb-2" alt="Cardiologist">
+                    <p>Cardiologist</p>
+                </a>
+            </div>
+            <div class="col-4 col-md-2 mb-3 doctor-card">
+                <a href="spesialis.html">
+                    <img src="img/anestesi.jpg" class="rounded-circle mb-2" alt="Anesthesiologist">
+                    <p>Anesthesiologist</p>
+                </a>
+            </div>
+            <div class="col-4 col-md-2 mb-3 doctor-card">
+                <a href="spesialis.html">
+                    <img src="img/neurologi.jpg" class="rounded-circle mb-2" alt="Neurologist">
+                    <p>Neurologist</p>
+                </a>
+            </div>
+            <div class="col-4 col-md-2 mb-3 doctor-card">
+                <a href="spesialis.html">
+                    <img src="img/default.jpg" class="rounded-circle mb-2" alt="Oncologist">
+                    <p>Oncologist</p>
+                </a>
+            </div>
+            <div class="col-4 col-md-2 mb-3 doctor-card">
+                <a href="spesialis.html">
+                    <img src="img/default.jpg" class="rounded-circle mb-2" alt="Opthalmologist">
+                    <p>Opthalmologist</p>
+                </a>
+            </div>
+            <div class="col-4 col-md-2 mb-3 doctor-card">
+                <a href="spesialis.html">
+                    <img src="img/default.jpg" class="rounded-circle mb-2" alt="Pediatrician">
+                    <p>Pediatrician</p>
+                </a>
+            </div>
+            <div class="col-4 col-md-2 mb-3 doctor-card">
+                <a href="spesialis.html">
+                    <img src="img/default.jpg" class="rounded-circle mb-2" alt="Urologist">
+                    <p>Urologist</p>
+                </a>
+            </div>
+            <div class="col-4 col-md-2 mb-3 doctor-card">
+                <a href="spesialis.html">
+                    <img src="img/default.jpg" class="rounded-circle mb-2" alt="Psychiatrist">
+                    <p>Psychiatrist</p>
+                </a>
+            </div>
+            <div class="col-4 col-md-2 mb-3 doctor-card">
+                <a href="spesialis.html">
+                    <img src="img/default.jpg" class="rounded-circle mb-2" alt="Pulmonologist">
+                    <p>Pulmonologist</p>
+                </a>
+            </div>
+            <div class="col-4 col-md-2 mb-3 doctor-card">
+                <a href="spesialis.html">
+                    <img src="img/default.jpg" class="rounded-circle mb-2" alt="Oftalmologis">
+                    <p>Oftalmologis</p>
+                </a>
+            </div>
+            <div class="col-4 col-md-2 mb-3 doctor-card">
+                <a href="spesialis.html">
+                    <img src="img/default.jpg" class="rounded-circle mb-2" alt="Otolaryngologist">
+                    <p>Otolaryngologist</p>
+                </a>
+            </div>
+    
+            <!-- Card for "Other" -->
+            <div class="col-4 col-md-2 mb-3 doctor-card">
+                <a href="spesialis.html">
+                    <img src="img/grid1.png" class="rounded-circle mb-2" alt="Other Specializations">
+                    <p>Other</p>
+                </a>
+            </div>
+        </div>
+    </section>
+    
+
+    <!-- Best Place Section -->
+    <section class="container mt-5 mb-5">
+        <h2 class="text-center mb-4">Best Places</h2>
+        <input type="text" id="hospitalSearch" class="form-control mb-4" placeholder="Search Hospitals...">
+
+        <div class="row text-center" id="hospitalList">
+            <div class="col-md-4 mb-3 hospital-card">
+                <div class="card">
+                    <img src="img/victoria.jpg" class="card-img-top" alt="Victoria Hospital">
+                    <div class="card-body">
+                        <h5 class="card-title">Victoria Hospital</h5>
+                        <p class="card-text">7 Km</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4 mb-3 hospital-card">
+                <div class="card">
+                    <img src="img/zhuxi.jpg" class="card-img-top" alt="Zhuxi Hospital">
+                    <div class="card-body">
+                        <h5 class="card-title">Zhuxi Hospital</h5>
+                        <p class="card-text">20 Km</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4 mb-3 hospital-card">
+                <div class="card">
+                    <img src="img/zhuxi2.jpg" class="card-img-top" alt="Zhuxi Hospital">
+                    <div class="card-body">
+                        <h5 class="card-title">Zhuxi Hospital</h5>
+                        <p class="card-text">30 Km</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+   <!--Footer-->
+<br>
+<footer class="footer1 bg-dark-blue">
+    <div class="footer-left">
+       <h3 style="font-size: 40px;">DocNow</h3>
+    </div>
+    <div class="text-2">
+        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <span class="contact-title">Contact Us</span>
+        <br><br>
+        <svg xmlns="http://www.w3.org/2000/svg" width="2em" height="2em" viewBox="0 0 24 24"><path fill="currentColor black" d="M12 11.5A2.5 2.5 0 0 1 9.5 9A2.5 2.5 0 0 1 12 6.5A2.5 2.5 0 0 1 14.5 9a2.5 2.5 0 0 1-2.5 2.5M12 2a7 7 0 0 0-7 7c0 5.25 7 13 7 13s7-7.75 7-13a7 7 0 0 0-7-7"/></svg>
+        Ketintang Madya no 66
+        <br><br>
+        <svg xmlns="http://www.w3.org/2000/svg" width="2em" height="2em" viewBox="0 0 24 24"><path fill="currentColor black" d="M15 12h2a5 5 0 0 0-5-5v2a3 3 0 0 1 3 3m4 0h2c0-5-4.03-9-9-9v2c3.86 0 7 3.13 7 7m1 3.5c-1.25 0-2.45-.2-3.57-.57c-.35-.11-.74-.03-1.02.25l-2.2 2.2a15.1 15.1 0 0 1-6.59-6.59l2.2-2.2c.28-.28.36-.67.25-1.02A11.4 11.4 0 0 1 8.5 4a1 1 0 0 0-1-1H4a1 1 0 0 0-1 1a17 17 0 0 0 17 17a1 1 0 0 0 1-1v-3.5a1 1 0 0 0-1-1"/></svg>
+        081234567890
+    </div>
+    <div class="creditcards">
+        <img src="img/logo.png" alt="" style="float: left">
+        <p>
+            We are honored to be a part of your healthcare <br>hourney and committed to delivering <br>compassionate, personalized, and top-notch <br>care every step of the way. 
+        </p>
+        <p>
+           <br>
+            Trust us with your health, and let us work together <br> to achieve the best possible outcomes for you <br> and your loved ones.
+        </p>
+    </div>
+</footer>
+<!--End-->
+
+    <!-- Bootstrap JS -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"></script>
+    <!-- Custom JavaScript -->
+    <script src="styles/appointment.js"></script>
+</body>
+</html>

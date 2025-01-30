@@ -1,0 +1,250 @@
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #FFDAB9; 
+    margin: 0;
+    padding: 0;
+}
+
+.doctor-appointment .card {
+    margin-top: 20px;
+    border-radius: 10px;
+    background-color: rgb(238, 233, 222); 
+}
+
+.doctor-appointment .card-header {
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    background-color: #5C2DC1; 
+}
+
+.doctor-appointment img {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+}
+
+.doctor-appointment h5 {
+    font-size: 1.25rem;
+    font-weight: bold;
+}
+
+.doctor-appointment p {
+    font-size: 0.9rem;
+}
+
+.doctor-appointment h6{
+    font-weight: bold;
+}
+
+.doctor-appointment .bg-success {
+    background-color: #36d736 !important; 
+}
+
+
+
+.mt-4, .mb-4 {
+    margin-top: 6rem !important;
+    margin-bottom: 2rem !important;
+}
+
+.input-group .btn {
+    border-radius: 0;
+}
+
+.input-group-text {
+    background-color: #f1f1f1; 
+    border: none;
+    border-radius: 50%; 
+}
+
+.input-group-sm .form-control {
+    padding-left: 15px;
+}
+
+.btn-sm {
+    border-radius: 50%; 
+    background-color: #007bff; 
+    border: none; 
+}
+
+.bg-peach {
+    background-color: #FFDAB9;
+}
+
+h2 {
+    color: #333;
+    font-weight: bold;
+  }
+  
+  .card {
+      border-radius: 10px;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+    background-color: #fff;
+  }
+  
+  .card-title {
+      font-weight: 600;
+    }
+    
+    .card-text {
+        color: #555;
+    }
+    
+    .bi-person-circle {
+        margin-right: 10px;
+    }
+    
+    .review-wrapper {
+        border-radius: 10px;
+        background-color: rgb(238, 233, 222); 
+    }
+
+/* Footer Section */
+    .footer1{
+        background-color: #00008B;
+        padding: 140px;
+        position: relative;
+        height: 400px;
+    }
+    .footer-left{
+        margin-top: -90px;
+        margin-left: -180px;
+        text-align: center;
+        color: #7FFFD4	;
+    }
+    .text2{
+        margin-left: 735px;
+        color: white;
+    }
+
+    .contact-title {
+        font-weight: bold; 
+        font-size: 1.5rem; 
+        margin-bottom: 10px;
+    }
+
+    .creditcards{
+        color: white;
+        margin-top: -160px;
+        margin-left: -200px;
+    }
+    .creditcards img {
+        margin-top: -180px; 
+    }
+
+    @media (max-width: 768px) {
+        .footer1{
+            background-color: #00008B;
+            padding: 140px;
+            position: relative;
+            height: 400px;
+        }
+        .footer-left{
+            margin-top: -80px;
+            margin-left: -140px;
+            text-align: center;
+            color: #7FFFD4	;
+        }
+        .text2{
+            margin-left: 330px;
+            margin-right: none;
+            color: white;
+        }
+
+        .contact-title {
+            font-weight: bold; 
+            font-size: 1.1rem; 
+            margin-bottom: 10px;
+        }
+
+        .creditcards{
+            color: white;
+            margin-top: -130px;
+            margin-left: -100px;
+        }
+
+        .creditcards img {
+            margin-left: -40px;
+            margin-top: -170px;
+            max-width: 170px; 
+        }
+    }
+
+    @media (max-width: 480px) {
+        .footer1{
+            background-color: #00008B;
+            padding: 100px;
+            position: relative;
+            height: 600px;
+        }
+        .footer-left{
+            margin-top: -40px;
+            margin-left: -100px;
+            text-align: center;
+            color: #7FFFD4	;
+        }
+        .text2{
+            margin-left: 100px;
+            color: white;
+            margin-left: -80px;
+        }
+
+        .contact-title {
+            font-weight: bold; 
+            font-size: 1.4rem; 
+            margin-left: -40px;
+            margin-right: -100;
+        }
+
+        .creditcards{
+            color: white;
+            margin-top: 60px;
+            margin-left: -87px;
+        }
+
+        .creditcards img {
+            margin-left: -40px;
+            margin-top: -340px;
+            max-width: 170px; 
+        }
+    }
+
+    @media (max-width: 320px) {
+        .footer1{
+            background-color: #00008B;
+            padding: 60px;
+            position: absolute;
+            height: 800px;
+        }
+        .footer-left{
+            margin-top: -40px;
+            margin-left: 60px;
+            text-align: center;
+            color: #7FFFD4	;
+        }
+        .text2{
+            color: white;
+            margin-left: -40px;
+            margin-right: -100px;
+            margin-top: 30px;
+        }
+
+        .contact-title {
+            font-weight: bold; 
+            font-size: 1.4rem; 
+            margin-top: 10px;
+            margin-bottom: -10px;
+        }
+
+        .creditcards{
+            color: white;
+            margin-top: 30px;
+            margin-left: -40px;
+        }
+
+        .creditcards img {
+            margin-left: -40px;
+            margin-top: -310px;
+            max-width: 170px; 
+        }
+    }

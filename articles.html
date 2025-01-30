@@ -1,0 +1,235 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DocNow</title>
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet">
+    <!-- Bootstrap Icons -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons/font/bootstrap-icons.css" rel="stylesheet">
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="styles/articles.css">
+</head>
+<body style="height: 280px">
+
+<header class="text-center position-relative">
+    <!-- Sticky Navbar -->
+    <nav class="navbar navbar-expand-lg navbar-light bg-light sticky-top">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="#">
+                <img src="img/logo.png" alt="DocNow Logo" width="30" height="30">
+                DocNow
+            </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item">
+                        <a class="nav-link" href="index.html"><i class="bi bi-house-fill"></i></i> Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="articles.html"><i class="bi bi-file-earmark-medical"></i> Health Articles</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="appointment.html"><i class="bi bi-calendar-check"></i> Appointment</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="about-us.html"><i class="bi bi-person-circle"></i> About Us</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link login-signup" href="login.html"><i class="bi bi-box-arrow-in-right"></i> Log in/Sign up</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Main Section -->
+    <section id="main-section" class="text-center">
+        <div class="overlay">
+            <img src="img/bg.jpg" alt="Hospital" class="img-fluid" style="width: 100%; height: auto;">
+            <div class="overlay-text">
+                <h1>Welcome to Articles</h1>
+                <p>Help you find what you want qyuckly and in detail</p>
+            </div>
+        </div>
+    </section>    
+</header>
+
+
+    <!-- Search Bar -->
+    <div class="input-group search-bar">
+        <!-- Search Icon -->
+        <span class="input-group-text bg-light"><i class="bi bi-search"></i></span>
+        <input type="text" class="form-control" placeholder='search "Dentist"' aria-label="Search">
+        <button class="btn btn-outline-secondary" type="button">
+             <!-- Icon Filter -->
+        <svg xmlns="http://www.w3.org/2000/svg" width="2em" height="2em" viewBox="0 0 56 56" style="margin-left: 5px;">
+            <path fill="currentColor" d="M36.402 19.316A5.65 5.65 0 0 0 41.7 15.59h8.11c.96 0 1.804-.844 1.804-1.899c0-1.054-.843-1.875-1.804-1.875h-8.086c-.797-2.18-2.883-3.773-5.32-3.773s-4.524 1.594-5.298 3.773H6.285c-1.055 0-1.898.82-1.898 1.875a1.89 1.89 0 0 0 1.898 1.899h24.82a5.65 5.65 0 0 0 5.297 3.726m0-2.882c-1.523 0-2.742-1.22-2.742-2.766a2.716 2.716 0 0 1 2.742-2.742c1.547 0 2.742 1.195 2.742 2.742s-1.195 2.766-2.742 2.766m-30.21 9.68c-.962 0-1.805.843-1.805 1.898s.843 1.875 1.804 1.875h8.368c.773 2.203 2.859 3.773 5.296 3.773a5.63 5.63 0 0 0 5.32-3.773h24.54c1.054 0 1.898-.82 1.898-1.875a1.89 1.89 0 0 0-1.898-1.899h-24.54c-.796-2.156-2.882-3.726-5.32-3.726c-2.414 0-4.5 1.57-5.296 3.726Zm13.663 4.64a2.73 2.73 0 0 1-2.742-2.742a2.716 2.716 0 0 1 2.742-2.742c1.57 0 2.743 1.195 2.743 2.742c0 1.523-1.172 2.742-2.743 2.742m16.547 17.203c2.438 0 4.524-1.57 5.297-3.75h8.11c.96 0 1.804-.82 1.804-1.875s-.843-1.898-1.804-1.898h-8.11a5.62 5.62 0 0 0-5.297-3.727a5.62 5.62 0 0 0-5.297 3.727H6.285a1.89 1.89 0 0 0-1.898 1.898c0 1.055.843 1.875 1.898 1.875h24.82c.774 2.18 2.86 3.75 5.297 3.75m0-2.883a2.73 2.73 0 0 1-2.742-2.742c0-1.57 1.219-2.742 2.742-2.742c1.547 0 2.742 1.172 2.742 2.742a2.716 2.716 0 0 1-2.742 2.742"/>
+        </svg>
+        </button>
+    </div>
+   
+     <p class="text3">Get thousands of articles you are looking for</p>
+
+     <section class="hero-section">
+        <div class="content">
+            <h1><b>Most Popular Articles</b></h1>
+            <div class="button-container">
+                <button><a href="search.html">Diet</a></button>
+                <button><a href="search.html">Heart</a></button>
+                <button><a href="search.html">Eye</a></button>&nbsp;&nbsp;&nbsp;
+                <button class="see-all"><a href="search.html">See All</a></button>
+            </div>
+        </div>
+    </section>
+    <br>
+
+    <section class="hero-section">
+      <div class="container">
+          <div class="row">
+              <div class="col-md-8">
+                  <img src="img/diet.png" alt="Diet Image" class="img-fluid">
+                  <h2><a href="articles2.html">10 foods for a successful diet</a></h2>
+                  <p>Are you on a diet but don't know what food to eat? Maybe you need to try the 10 foods...</p>
+                  <button class="btn btn-pastelnetral text-dark-blue" style="color: #00008B;">
+                    <a href="articles2.html" style="text-decoration: none; color: inherit;"><b>Read More</b></a>
+                    </button>
+                </div>
+              <div class="col-md-4">
+                  <div class="card">
+                      <div class="card-body">
+                          <p class="card-title">For ADS</p>
+                      </div>
+                  </div>
+              </div>
+          </div>
+      </div>
+  </section>
+  
+  <br>
+  <div class="row">
+      <!--Card kesatu-->
+      <div class="card">
+          <div class="card-image">
+              <img src="img/botol.webp" alt="" class="w-100" style="height: 296px; object-fit: cover;">
+          </div>
+          <div class="card-content">
+              <h6><a href="articles2.html">Here are recommendations for 5 medicines for hair loss</a></h6>
+              <div class="button-container">
+                  <button class="beauty-button">Beauty</button>
+                  <button class="beauty-button">Hair loss</button>
+              </div>
+              <h6><a href="articles2.html">Annoyed by the problem of hair loss that doesn't go away? Here are some medicines to treat hair loss...</a></h6>
+          </div>
+      </div>
+      <!--Card Kedua-->
+      <div class="card">
+          <div class="card-image">
+              <img src="img/dentist.jpeg" alt="" class="w-100" style="height: 296px; object-fit: cover;">
+          </div>
+          <div class="card-content">
+              <h6><a href="articles2.html">Whenever we come to check our teeth at the dentist</a></h6>
+              <div class="button-container">
+                  <button class="dentist-button">Teeth</button>
+                  <button class="dentist-button">Dentist</button>
+                  <button class="dentist-button">Health</button>
+              </div>
+              <h6><a href="articles2.html">How many times a year do we go to the dentist? Once every 6 months? Once a year? This article will .....</a></h6>
+          </div>
+      </div>
+  
+      <!--Card Ketiga-->
+      <div class="card">
+          <div class="card-image">
+              <img src="img/obat.jpeg" alt="" class="w-100" style="height: 296px; object-fit: cover;">
+          </div>
+          <div class="card-content">
+              <h6><a href="articles2.html">Is kidney failure caused by overdose?</a></h6>
+              <div class="button-container">
+                  <button class="obat-button">Kidney</button>
+                  <button class="obat-button">Nefrologi</button>
+                  <button class="obat-button">Health</button>
+              </div>
+              <h6><a href="articles2.html">Did you know that if you consume too much medication it can cause your kidneys to fail? For that reason, .</a></h6>
+          </div>
+      </div>
+  </div>
+  
+          <!--End-->
+          <br>
+          <!--Tombol prev next-->
+    <div class="button">
+        <button class="prev"><i class="bi bi-arrow-left"></i></button>
+        <button class="next"><i class="bi bi-arrow-right"></i></button>
+    </div>
+    <!--End-->
+
+    <!--More Articles-->
+    <div class="morearticles">
+        &nbsp;<h1>More Articles</h1>
+        <img src="img/semedi.jpeg" alt="" style="float:left" width="200px" height="200px">
+        <h6><a href="articles2.html">Meditation to overcome <br>stress and illness></a></h6>
+        <p> Meditation is a relaxation <br>technique to train and focus your <br> mind. This exercise can be done <br>by...</p>
+        <button class="btn btn-pastelnetral text-dark-blue" style="color: #00008B;"><b>Read More</b></button>
+
+        <br>
+        <br>
+        <img src="img/makan.jpeg" alt="" style="float:left" width="200px" height="200px">
+        <h6><a href="articles2.html"> foods that cause bloody <br>bowel movements</a></h6>
+        <p> Foods that cause bloody bowel <br>movements need to be limited or <br>even avoided, especially if you <br> suffer from certain conditions....</p>
+        <button class="btn btn-pastelnetral text-dark-blue" style="color: #00008B;"><b>Read More</b></button>
+
+
+        <br>
+        <br>
+        <img src="img/suntik.jpeg" alt="" style="float:left" width="200px" height="200px">
+        <h6><a href="articles2.html">This is the importance of <br> the complete dose of <br> dengue vaccination</a></h6>
+        <p> To protect yourself and your family <br>from dengue virus infection, giving the dengue vaccine is very <br> important. Vaccine...</p>
+        <button class="btn btn-pastelnetral text-dark-blue" style="color: #00008B;"><b>Read More</b></button>
+
+
+        <br>
+        <br>
+        <img src="img/kaki.jpeg" alt="" style="float:left" width="200px" height="200px">
+        <h6><a href="articles2.html">10 causes of sore and <br>sore feet</a></h6>
+        <p> The cause of feet feeling achy <br>and sore is mostly due to walking <br>long distances and <exercising class="br"></exercising> Besides that,.</p>
+        <button class="btn btn-pastelnetral text-dark-blue" style="color: #00008B;"><b>Read More</b></button>
+    </div>
+
+     <!--Footer-->
+     <br>
+     <footer class="footer1 bg-dark-blue">
+         <div class="footer-left">
+            <h3 style="font-size: 40px;">DocNow</h3>
+         </div>
+         <div class="text-2">
+             &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <span class="contact-title">Contact Us</span>
+             <br><br>
+             <svg xmlns="http://www.w3.org/2000/svg" width="2em" height="2em" viewBox="0 0 24 24"><path fill="currentColor black" d="M12 11.5A2.5 2.5 0 0 1 9.5 9A2.5 2.5 0 0 1 12 6.5A2.5 2.5 0 0 1 14.5 9a2.5 2.5 0 0 1-2.5 2.5M12 2a7 7 0 0 0-7 7c0 5.25 7 13 7 13s7-7.75 7-13a7 7 0 0 0-7-7"/></svg>
+             Ketintang Madya no 66
+             <br><br>
+             <svg xmlns="http://www.w3.org/2000/svg" width="2em" height="2em" viewBox="0 0 24 24"><path fill="currentColor black" d="M15 12h2a5 5 0 0 0-5-5v2a3 3 0 0 1 3 3m4 0h2c0-5-4.03-9-9-9v2c3.86 0 7 3.13 7 7m1 3.5c-1.25 0-2.45-.2-3.57-.57c-.35-.11-.74-.03-1.02.25l-2.2 2.2a15.1 15.1 0 0 1-6.59-6.59l2.2-2.2c.28-.28.36-.67.25-1.02A11.4 11.4 0 0 1 8.5 4a1 1 0 0 0-1-1H4a1 1 0 0 0-1 1a17 17 0 0 0 17 17a1 1 0 0 0 1-1v-3.5a1 1 0 0 0-1-1"/></svg>
+             081234567890
+         </div>
+         <div class="creditcards">
+             <img src="img/logo.png" alt="" style="float: left">
+             <p>
+                 We are honored to be a part of your healthcare <br>hourney and committed to delivering <br>compassionate, personalized, and top-notch <br>care every step of the way. 
+             </p>
+             <p>
+                <br>
+                 Trust us with your health, and let us work together <br> to achieve the best possible outcomes for you <br> and your loved ones.
+             </p>
+         </div>
+     </footer>
+     <!--End-->
+
+    <!-- Bootstrap JS and Popper.js -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"></script>
+    <!-- Custom JS -->
+    <script src="script.js"></script>
+</body>
+</html>

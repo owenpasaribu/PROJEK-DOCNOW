@@ -1,0 +1,184 @@
+/* Additional custom styles */
+body {
+    font-family: Arial, sans-serif;
+}
+
+/* Header */
+header h1 {
+    font-size: 2.5rem;
+    margin-bottom: 0.5rem;
+}
+
+/* Doctor Filter Section */
+.filter-section h5 {
+    font-weight: bold;
+}
+.filter-section h6 {
+    margin-top: 1.5rem;
+    font-size: 1.1rem;
+}
+
+/* Doctor Card */
+.doctor-card {
+    align-items: center;
+}
+.doctor-card img {
+    border-radius: 8px;
+}
+.doctor-card h5 {
+    margin-bottom: 0.2rem;
+}
+.doctor-card p {
+    margin-bottom: 0.5rem;
+}
+
+    /* Footer Section */
+    .footer1{
+        background-color: #00008B;
+        padding: 140px;
+        position: relative;
+        height: 400px;
+    }
+    .footer-left{
+        margin-top: -90px;
+        margin-left: -180px;
+        text-align: center;
+        color: #7FFFD4	;
+    }
+    .text2{
+        margin-left: 735px;
+        color: white;
+    }
+
+    .contact-title {
+        font-weight: bold; 
+        font-size: 1.5rem; 
+        margin-bottom: 10px;
+    }
+
+    .creditcards{
+        color: white;
+        margin-top: -160px;
+        margin-left: -200px;
+    }
+    .creditcards img {
+        margin-top: -180px; 
+    }
+
+    @media (max-width: 768px) {
+        .footer1{
+            background-color: #00008B;
+            padding: 140px;
+            position: relative;
+            height: 400px;
+        }
+        .footer-left{
+            margin-top: -80px;
+            margin-left: -140px;
+            text-align: center;
+            color: #7FFFD4	;
+        }
+        .text2{
+            margin-left: 330px;
+            margin-right: none;
+            color: white;
+        }
+
+        .contact-title {
+            font-weight: bold; 
+            font-size: 1.1rem; 
+            margin-bottom: 10px;
+        }
+
+        .creditcards{
+            color: white;
+            margin-top: -130px;
+            margin-left: -100px;
+        }
+
+        .creditcards img {
+            margin-left: -40px;
+            margin-top: -170px;
+            max-width: 170px; 
+        }
+    }
+
+    @media (max-width: 480px) {
+        .footer1{
+            background-color: #00008B;
+            padding: 100px;
+            position: relative;
+            height: 600px;
+        }
+        .footer-left{
+            margin-top: -40px;
+            margin-left: -100px;
+            text-align: center;
+            color: #7FFFD4	;
+        }
+        .text2{
+            margin-left: 100px;
+            color: white;
+            margin-left: -80px;
+        }
+
+        .contact-title {
+            font-weight: bold; 
+            font-size: 1.4rem; 
+            margin-left: -40px;
+            margin-right: -100;
+        }
+
+        .creditcards{
+            color: white;
+            margin-top: 60px;
+            margin-left: -87px;
+        }
+
+        .creditcards img {
+            margin-left: -40px;
+            margin-top: -340px;
+            max-width: 170px; 
+        }
+    }
+
+    @media (max-width: 320px) {
+        .footer1{
+            background-color: #00008B;
+            padding: 60px;
+            position: absolute;
+            height: 800px;
+        }
+        .footer-left{
+            margin-top: -40px;
+            margin-left: 60px;
+            text-align: center;
+            color: #7FFFD4	;
+        }
+        .text2{
+            color: white;
+            margin-left: -40px;
+            margin-right: -100px;
+            margin-top: 30px;
+        }
+
+        .contact-title {
+            font-weight: bold; 
+            font-size: 1.4rem; 
+            margin-top: 10px;
+            margin-bottom: -10px;
+        }
+
+        .creditcards{
+            color: white;
+            margin-top: 30px;
+            margin-left: -40px;
+        }
+
+        .creditcards img {
+            margin-left: -40px;
+            margin-top: -310px;
+            max-width: 170px; 
+        }
+    }
+

@@ -1,0 +1,187 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Doctors Cardiologist</title>
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet">
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="styles/daftar-dokter.css">
+</head>
+<body>
+    <!-- Header Section with Search Bar -->
+    <header class="bg-primary text-white text-center py-4">
+        <h1>Doctors Cardiologist</h1>
+        <div class="search-bar mt-3">
+            <div class="input-group mb-3 w-50 mx-auto">
+                <input type="text" class="form-control" placeholder="Search Cardiologist" aria-label="Search">
+                <button class="btn btn-outline-secondary" type="button">Search</button>
+            </div>
+        </div>
+    </header>
+
+    <!-- Filters and Doctors List Section -->
+    <section class="container my-5">
+        <div class="row">
+            <!-- Filters Sidebar -->
+            <div class="col-md-3">
+                <div class="filter-section bg-light p-3 rounded">
+                    <h5>Add Your Location</h5>
+                    <hr>
+                    <h6>Select City</h6>
+                    <ul class="list-unstyled">
+                        <li><input type="checkbox" class="city-filter" value="Jakarta"> Jakarta</li>
+                        <li><input type="checkbox" class="city-filter" value="Surabaya"> Surabaya</li>
+                        <li><input type="checkbox" class="city-filter" value="Medan"> Medan</li>
+                        <li><input type="checkbox" class="city-filter" value="Bandung"> Bandung</li>
+                    </ul>
+                    <hr>
+                    <h6>Facility</h6>
+                    <ul class="list-unstyled">
+                        <li><input type="checkbox" class="facility-filter" value="Clinic"> Clinic</li>
+                        <li><input type="checkbox" class="facility-filter" value="Hospital"> Hospital</li>
+                    </ul>
+                    <hr>
+                    <h6>Experience</h6>
+                    <ul class="list-unstyled">
+                        <li><input type="checkbox" class="experience-filter" value="0-5"> 0 - 5 Years</li>
+                        <li><input type="checkbox" class="experience-filter" value="5-15"> 5 - 15 Years</li>
+                        <li><input type="checkbox" class="experience-filter" value="15+"> 15+ Years</li>
+                    </ul>
+                    <hr>
+                    <!-- Apply and Reset buttons -->
+                    <button id="apply-filters" class="btn btn-primary w-100 mb-2">Apply</button>
+                    <button id="reset-filters" class="btn btn-danger w-100">Reset Filters</button>
+                </div>
+            </div>
+    
+            <!-- Doctors List -->
+            <div class="col-md-9">
+                <div class="row">
+                    <div class="col-md-12">
+                        <div class="doctor-card p-3 mb-4 border rounded d-flex align-items-center" data-city="Jakarta" data-facility="Clinic" data-experience="5">
+                            <img src="img/doctor.jpg" class="img-fluid rounded" alt="Doctor" width="80">
+                            <div class="ms-3">
+                                <h5>Dr. Cristian Samuel, B.Med., M.Mg</h5>
+                                <p>Cardiologist | 5 Years Experience</p>
+                                <a href="chat.html" class="text-success">Appointment Doctor</a>
+                            </div>
+                        </div>
+                    </div>
+                <div class="col-md-12">
+                    <div class="doctor-card p-3 mb-4 border rounded d-flex align-items-center" data-city="Surabaya" data-facility="Hospital" data-experience="7">
+                        <img src="img/doctor1.jpg" class="img-fluid rounded" alt="Doctor" width="80">
+                        <div class="ms-3">
+                            <h5>Dr. Marie Widowo, B.Med., M.Mg</h5>
+                            <p>Cardiologist | 7 Years Experience</p>
+                            <a href="chat.html" class="text-success">Appointment Doctor</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-12">
+                    <div class="doctor-card p-3 mb-4 border rounded d-flex align-items-center" data-city="Medan" data-facility="Clinic" data-experience="10">
+                        <img src="img/doctor2.jpg" class="img-fluid rounded" alt="Doctor" width="80">
+                        <div class="ms-3">
+                            <h5>Dr. Reynald Safa, B.Med., M.Mg</h5>
+                            <p>Cardiologist | 10 Years Experience</p>
+                            <a href="chat.html" class="text-success">Appointment Doctor</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-12">
+                    <div class="doctor-card p-3 mb-4 border rounded d-flex align-items-center" data-city="Bandung" data-facility="Hospital" data-experience="15">
+                        <img src="img/doctor3.jpg" class="img-fluid rounded" alt="Doctor" width="80">
+                        <div class="ms-3">
+                            <h5>Prof. Dr. Grace Enne, B.Med., M.Mg</h5>
+                            <p>Cardiologist | 15 Years Experience</p>
+                            <a href="chat.html" class="text-success">Appointment Doctor</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+
+    <!-- Informational Section About Cardiologists -->
+    <section class="container mb-5">
+        <h2>Doctor Cardiologist</h2>
+        <h4>A. What is a Cardiologist?</h4>
+        <p>A cardiologist is a medical doctor who specializes in diagnosing, treating, and preventing diseases related to the heart and blood vessels. They focus on the cardiovascular system and manage conditions such as heart disease, arrhythmias (irregular heartbeats), heart attacks, and other cardiovascular issues that can affect heart health.</p>
+
+        <h4>B. What Conditions Can a Cardiologist Treat?</h4>
+        <p>Cardiologists can treat a wide range of heart and blood vessel-related conditions, including:</p>
+        <ul>
+            <li>Coronary Artery Disease (CAD): Blockage in the arteries that supply blood to the heart.</li>
+            <li>Arrhythmias: Irregular heartbeats, including atrial fibrillation and ventricular tachycardia.</li>
+            <li>Heart Failure: When the heart is unable to pump blood efficiently.</li>
+            <li>Hypertension (High Blood Pressure): Long-term high blood pressure that can lead to heart disease.</li>
+            <li>Heart Attack (Myocardial Infarction): A condition where blood flow to the heart muscle is blocked.</li>
+            <li>Atherosclerosis: Hardening or narrowing of the arteries due to plaque buildup.</li>
+            <li>Cardiomyopathy: Disease of the heart muscle that affects its ability to pump blood.</li>
+            <li>Heart Valve Disorders: Conditions that affect the functioning of heart valves.</li>
+            <li>Congenital Heart Disease: Heart defects present from birth.</li>
+        </ul>
+
+        <h4>C. What is the Average Cost of Seeing a Cardiologist?</h4>
+        <p>The cost of seeing a cardiologist varies depending on the location, severity of the condition, and the type of tests needed. On average, in countries like the United States, a cardiologist consultation can range from $200 to $600 per visit. In other countries like Indonesia, consultation fees may range from IDR 300,000 to IDR 1,500,000. Additional diagnostic tests such as electrocardiograms (ECG), echocardiograms, or cardiac catheterizations can increase the cost significantly, sometimes reaching thousands of dollars, especially in cases requiring advanced imaging or interventions.</p>
+
+        <h4>D. When Should You See a Cardiologist?</h4>
+        <p>You should consider seeing a cardiologist under the following circumstances: </p>
+        <ul>
+            <li>If you experience symptoms such as chest pain, shortness of breath, irregular heartbeats, or unusual fatigue.</li>
+            <li>If you have a family history of heart disease or heart attacks.</li>
+            <li>If you have risk factors such as diabetes, high blood pressure, high cholesterol, obesity, or if you smoke.</li>
+            <li>If you have already suffered a heart attack or stroke.</li>
+            <li>If your general practitioner recommends further cardiac evaluation or testing.</li>
+            <li>Regular checkups with a cardiologist are also recommended for people over 40 or those with pre-existing conditions related to the heart.</li>
+
+        </ul>
+
+        <h4>E. How to Become a Cardiologist?</h4>
+        <p>To become a cardiologist, the following steps are required: </p>
+        <ul>
+            <li>Obtain a Bachelor's Degree: Typically in a science-related field as a pre-med requirement.</li>
+           <li> Complete Medical School: Earn a medical degree (MD or equivalent), which generally takes 4 years.</li>
+            <li>Complete a Residency Program: After medical school, cardiologists must complete a residency in internal medicine, which typically takes 3 years.</li>
+            <li>Pursue a Cardiology Fellowship: Following the residency, they must undertake a fellowship in cardiology, which typically lasts 3-5 years and focuses on advanced training in heart diseases and interventions.</li>
+            <li>Board Certification: After completing the fellowship, cardiologists must pass a certification exam in cardiology.</li>
+            <li>Continued Education: Cardiologists often pursue further subspecializations, such as interventional cardiology or electrophysiology, and must keep up with ongoing education to stay current with advancements in cardiovascular medicine.</li>
+        </ul>
+    </section>
+
+<!--Footer-->
+<br>
+<footer class="footer1 bg-dark-blue">
+    <div class="footer-left">
+       <h3 style="font-size: 40px;">DocNow</h3>
+    </div>
+    <div class="text2">
+        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <span class="contact-title">Contact Us</span>
+        <br><br>
+        <svg xmlns="http://www.w3.org/2000/svg" width="2em" height="2em" viewBox="0 0 24 24"><path fill="currentColor black" d="M12 11.5A2.5 2.5 0 0 1 9.5 9A2.5 2.5 0 0 1 12 6.5A2.5 2.5 0 0 1 14.5 9a2.5 2.5 0 0 1-2.5 2.5M12 2a7 7 0 0 0-7 7c0 5.25 7 13 7 13s7-7.75 7-13a7 7 0 0 0-7-7"/></svg>
+        Ketintang Madya no 66
+        <br><br>
+        <svg xmlns="http://www.w3.org/2000/svg" width="2em" height="2em" viewBox="0 0 24 24"><path fill="currentColor black" d="M15 12h2a5 5 0 0 0-5-5v2a3 3 0 0 1 3 3m4 0h2c0-5-4.03-9-9-9v2c3.86 0 7 3.13 7 7m1 3.5c-1.25 0-2.45-.2-3.57-.57c-.35-.11-.74-.03-1.02.25l-2.2 2.2a15.1 15.1 0 0 1-6.59-6.59l2.2-2.2c.28-.28.36-.67.25-1.02A11.4 11.4 0 0 1 8.5 4a1 1 0 0 0-1-1H4a1 1 0 0 0-1 1a17 17 0 0 0 17 17a1 1 0 0 0 1-1v-3.5a1 1 0 0 0-1-1"/></svg>
+        081234567890
+    </div>
+    <div class="creditcards">
+        <img src="img/logo.png" alt="" style="float: left">
+        <p>
+            We are honored to be a part of your healthcare <br>hourney and committed to delivering <br>compassionate, personalized, and top-notch <br>care every step of the way. 
+        </p>
+        <p>
+           <br>
+            Trust us with your health, and let us work together <br> to achieve the best possible outcomes for you <br> and your loved ones.
+        </p>
+    </div>
+</footer>
+<!--End-->
+    
+    <!-- Bootstrap JS -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="styles/daftar-dokter.js"></script>
+</body>
+</html>

@@ -1,0 +1,370 @@
+body {
+    font-family: 'Arial', sans-serif;
+}
+
+.bg-image {
+    background-image: url('../img/bg.jpg');
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+}
+
+#main-section {
+    position: relative;
+    height: 100vh;
+    overflow: hidden;
+}
+
+.tagline {
+    max-width: 30%; 
+    text-align: center; 
+    margin-top: 15px;
+    font-size: 1.1rem;
+}
+
+#main-section .overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.3); 
+}
+
+#main-section img {
+    object-fit: cover;
+    width: 100%;
+    height: 100%;
+    display: block;
+}
+
+
+#main-section .main-text {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: white;
+    text-align: center;
+    animation: fadeIn 1.5s ease-in-out;
+}
+
+#main-section .main-text h1 {
+    font-size: 3em;
+    font-family: 'Lucida Sans', sans-serif;
+}
+
+#main-section .main-text p {
+    font-size: 1.5em;
+    margin-bottom: 20px;
+}
+
+.nav-link.login-signup {
+    display: inline-block; 
+    padding: 10px 20px; 
+    border: 2px solid rgb(63, 99, 177); 
+    border-radius: 5px; 
+    transition: background-color 0.3s, border-color 0.3s; 
+    background-color: transparent;
+}
+
+.nav-link.login-signup:hover {
+    background-color: rgb(145, 160, 226); 
+    color: white; 
+    
+}
+
+/* Navbar animation */
+.navbar-nav .nav-item a {
+    transition: color 0.3s ease;
+}
+
+.navbar-nav .nav-item a:hover {
+    color: #007bff;
+}
+
+/* Sticky Navbar */
+.sticky-top {
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.search-bar {
+    display: inline-flex;
+    width: 70%;
+    animation: slideIn 1s ease-in-out;
+}
+
+.search-bar input {
+    width: 100%;
+    padding: 10px;
+    border-radius: 10px;
+    transition: border 0.3s ease;
+}
+
+.search-bar input:focus {
+    border: 2px solid #007bff;
+    outline: none;
+}
+
+.search-bar button {
+    border-radius: 10px;
+    padding: 10px;
+    transition: transform 0.3s ease;
+}
+
+/* Animate button on hover */
+.search-bar button:hover {
+    transform: scale(1.1);
+    background-color: #007bff;
+    color: white;
+}
+
+
+.hero-section{
+    height:30vh;
+    display: flex;
+    align-items: center;
+    padding: 0 20px;
+    margin-bottom: 20px;
+}
+
+.content .cn{
+    width: 160px;
+    height: 40px;
+    background-color: #D3D3D3;
+    border: none;
+    margin-bottom: 10px;
+    margin-left: 640px;
+    border-radius: 10px;
+    cursor: pointer;
+
+}
+.content .cn a{
+    text-decoration: none;
+    color: #080808;
+}
+
+.content .cn:hover {
+    background-color: #007bff;
+    color: white;
+    transform: scale(1.1); 
+    transition: transform 0.3s ease-in-out;
+}
+
+.button{
+    text-align: center;
+}
+
+#services .card {
+    transition: transform 0.3s ease-in-out, box-shadow 0.3s ease;
+}
+
+#services .card:hover {
+    transform: scale(1.05); 
+    box-shadow: 0px 4px 15px rgba(0, 0, 0, 0.2); 
+}
+
+#services .card:active, .hero-section .card:active {
+    transform: scale(1.02);
+    box-shadow: 0px 6px 20px rgba(0, 0, 0, 0.3);
+    transition: transform 0.1s, box-shadow 0.1s;
+}
+
+
+.card .card-title, 
+.card .lead,
+.card svg {
+    color: black;
+    fill: black; 
+}
+
+
+.card:hover .card-title, 
+.card:hover .lead, 
+.card:hover svg {
+    color: black;
+    fill: black;
+}
+
+
+#portofolio .card {
+    margin-bottom: 20px;
+}
+
+/* Footer Section */
+.footer1{
+    background-color: #00008B;
+    padding: 140px;
+    position: relative;
+    height: 400px;
+}
+.footer-left{
+    margin-top: -90px;
+    margin-left: -180px;
+    text-align: center;
+    color: #7FFFD4	;
+}
+.text2{
+    margin-left: 735px;
+    color: white;
+}
+
+.contact-title {
+    font-weight: bold; 
+    font-size: 1.5rem; 
+    margin-bottom: 10px;
+}
+
+.creditcards{
+    color: white;
+    margin-top: -160px;
+    margin-left: -200px;
+}
+.creditcards img {
+    margin-top: -180px; 
+}
+
+@media (max-width: 768px) {
+    #main-section .main-text h1 {
+        font-size: 2em;
+    }
+
+    #main-section .main-text p {
+        font-size: 1em;
+    }
+
+    #main-section .search-bar {
+        width: 90%;
+    }
+
+    #main-section img {
+        height: auto;
+        width: 100%;
+    }
+
+    .footer1{
+        background-color: #00008B;
+        padding: 140px;
+        position: relative;
+        height: 400px;
+    }
+    .footer-left{
+        margin-top: -80px;
+        margin-left: -140px;
+        text-align: center;
+        color: #7FFFD4	;
+    }
+    .text2{
+        margin-left: 330px;
+        margin-right: none;
+        color: white;
+    }
+
+    .contact-title {
+        font-weight: bold; 
+        font-size: 1.1rem; 
+        margin-bottom: 10px;
+    }
+
+    .creditcards{
+        color: white;
+        margin-top: -130px;
+        margin-left: -100px;
+    }
+
+    .creditcards img {
+        margin-left: -40px;
+        margin-top: -170px;
+        max-width: 170px; 
+    }
+}
+
+@media (max-width: 480px) {
+    .footer1{
+        background-color: #00008B;
+        padding: 100px;
+        position: relative;
+        height: 600px;
+    }
+    .footer-left{
+        margin-top: -40px;
+        margin-left: -100px;
+        text-align: center;
+        color: #7FFFD4	;
+    }
+    .text2{
+        margin-left: 100px;
+        color: white;
+        margin-left: -80px;
+    }
+
+    .contact-title {
+        font-weight: bold; 
+        font-size: 1.4rem; 
+        margin-left: -40px;
+        margin-right: -100;
+    }
+
+    .creditcards{
+        color: white;
+        margin-top: 60px;
+        margin-left: -87px;
+    }
+
+    .creditcards img {
+        margin-left: -40px;
+        margin-top: -340px;
+        max-width: 170px; 
+    }
+}
+
+@media (max-width: 320px) {
+    .footer1{
+        background-color: #00008B;
+        padding: 60px;
+        position: absolute;
+        height: 800px;
+    }
+    .footer-left{
+        margin-top: -40px;
+        margin-left: 60px;
+        text-align: center;
+        color: #7FFFD4	;
+    }
+    .text2{
+        color: white;
+        margin-left: -40px;
+        margin-right: -100px;
+        margin-top: 30px;
+    }
+
+    .contact-title {
+        font-weight: bold; 
+        font-size: 1.4rem; 
+        margin-top: 10px;
+        margin-bottom: -10px;
+    }
+
+    .creditcards{
+        color: white;
+        margin-top: 30px;
+        margin-left: -40px;
+    }
+
+    .creditcards img {
+        margin-left: -40px;
+        margin-top: -310px;
+        max-width: 170px; 
+    }
+}
+/* Keyframes for fade-in effect */
+@keyframes fadeIn {
+    from { opacity: 0; }
+    to { opacity: 1; }
+}
+
+/* Keyframes for sliding search bar */
+@keyframes slideIn {
+    from { transform: translateY(30px); opacity: 0; }
+    to { transform: translateY(0); opacity: 1; }
+}
